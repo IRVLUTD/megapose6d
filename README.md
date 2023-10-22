@@ -92,7 +92,7 @@ Install dependencies by
 pip install -r conda/requirements.txt
 ```
 
-Follow instructions to intall [pinocchio](https://stack-of-tasks.github.io/pinocchio/download.html)
+Follow instructions to install [pinocchio](https://stack-of-tasks.github.io/pinocchio/download.html)
 
 If you plan to further develop the MegaPose code, you may want to install dev tools via `pip install -e ".[ci,dev]"`. See [here](#dev-ops) for more details.
 
