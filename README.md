@@ -77,6 +77,7 @@ pip install -e .
 ```
 
 If encoutering errors, try
+
 Creat a conda environment with `your system python version`. We will use this conda environment to manage a small number of dependencies needed for 
 
 ```
