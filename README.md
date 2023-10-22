@@ -84,7 +84,7 @@ Creat a conda environment with `your system python version`. We will use this co
 conda create -n megapose python=3.x
 ```
 
-Follow instructions to intall [pytorch](https://pytorch.org/get-started/locally/)
+Follow instructions to install [pytorch](https://pytorch.org/get-started/locally/)
 
 Install dependencies by
 
