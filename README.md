@@ -76,13 +76,7 @@ conda activate megapose
 pip install -e .
 ```
 
-If you plan to further develop the MegaPose code, you may want to install dev tools via `pip install -e ".[ci,dev]"`. See [here](#dev-ops) for more details.
-
-### Option B: Docker Installation
-<details>
-<summary>Click for details...</summary>
-
-### Create a conda environment
+If encoutering errors, try
 Creat a conda environment with `your system python version`. We will use this conda environment to manage a small number of dependencies needed for 
 
 ```
@@ -99,6 +93,18 @@ pip install -r conda/requirements.txt
 
 Follow instructions to intall [pinocchio](https://stack-of-tasks.github.io/pinocchio/download.html)
 
+If you plan to further develop the MegaPose code, you may want to install dev tools via `pip install -e ".[ci,dev]"`. See [here](#dev-ops) for more details.
+
+### Option B: Docker Installation
+<details>
+<summary>Click for details...</summary>
+
+### Create a conda environment
+Creat a conda environment with `python==3.9`. We will use this conda environment to manage a small number of dependencies needed for 
+
+```
+conda env create -f conda/environment.yaml
+```
 
 ### Install dependencies in conda
 
