@@ -83,11 +83,22 @@ If you plan to further develop the MegaPose code, you may want to install dev to
 <summary>Click for details...</summary>
 
 ### Create a conda environment
-Creat a conda environment with `python==3.9`. We will use this conda environment to manage a small number of dependencies needed for 
+Creat a conda environment with `your system python version`. We will use this conda environment to manage a small number of dependencies needed for 
 
 ```
-conda env create -f conda/environment.yaml
+conda create -n megapose python=3.x
 ```
+
+Follow instructions to intall [pytorch](https://pytorch.org/get-started/locally/)
+
+Install dependencies by
+
+```
+pip install -r conda/requirements.txt
+```
+
+Follow instructions to intall [pinocchio](https://stack-of-tasks.github.io/pinocchio/download.html)
+
 
 ### Install dependencies in conda
 
